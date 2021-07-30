@@ -1,0 +1,44 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+	f, err := os.Open("input.txt")
+	defer f.Close()
+	if err != nil {
+		fmt.Println(err)
+	}
+	scanner := bufio.NewScanner(f)
+	var myArray [][]string
+	var count int = 0
+	for scanner.Scan() {
+		currentValue := scanner.Text()
+		fmt.Println("current", currentValue)
+		tmp := strings.Split(currentValue, "")
+		myArray = append(myArray, tmp)
+	}
+	row := make([]int, 127)
+	column := make([]int, 7)
+	for _, v := range myArray {
+		for _, vv := range v {
+			fmt.Println("vv", vv)
+			if vv == "F" {
+				row = row[0 : len(row)/2]
+			} else if vv == "B" {
+				row = row[len(row)/2:]
+			}
+
+			if vv == "R" {
+				column = column[0 : len(column)/2]
+			} else if vv == "L" {
+				column = column[len(column)/2:]
+			}
+		}
+	}
+	fmt.Println("count", count)
+}
