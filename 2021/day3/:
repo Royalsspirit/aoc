@@ -1,0 +1,129 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"regexp"
+	"strconv"
+)
+
+func flatTheArray(rowData []string) map[int]string {
+	bits := make(map[int]string)
+	for j := 0; j < len(rowData); j++ {
+		for i := 0; i < len(rowData[j]); i++ {
+			bits[i] += string(rowData[j][i])
+
+		}
+
+	}
+
+	return bits
+
+}
+func commonBits(myArray map[int]string, common bool) (string, string, map[int]string) {
+	commonBits := ""
+	leastCommonBits := ""
+	commonDigitByIndex := make(map[int]string)
+	r := regexp.MustCompile(`0`)
+	for i := 0; i < len(myArray); i++ {
+		result := r.FindAllIndex([]byte(myArray[i]), -1)
+		fmt.Println("result", result)
+		fmt.Println("myarray", myArray[i], "mid point", (len(myArray[i]) / 2))
+		if len(result) > (len(myArray[i]) / 2) {
+			commonBits += "0"
+			if common {
+
+				commonDigitByIndex[i] = "0"
+			} else {
+
+				commonDigitByIndex[i] = "1"
+			}
+			leastCommonBits += "1"
+		} else {
+			commonBits += "1"
+			if common {
+
+				commonDigitByIndex[i] = "1"
+			} else {
+
+				commonDigitByIndex[i] = "0"
+			}
+			leastCommonBits += "0"
+		}
+
+	}
+	return commonBits, leastCommonBits, commonDigitByIndex
+
+}
+func part1(myArray map[int]string) (int64, map[int]string) {
+
+	commonBits, leastCommonBits, commonDigitByIndex := commonBits(myArray, true)
+
+	commonInteger, _ := strconv.ParseInt(commonBits, 2, 64)
+	leastCommonInteger, _ := strconv.ParseInt(leastCommonBits, 2, 64)
+
+	return commonInteger * leastCommonInteger, commonDigitByIndex
+}
+
+func part2(rowData []string, commonDigitByIndex map[int]string) int64 {
+	fmt.Println("row data before", rowData)
+	fmt.Println("common digit", commonDigitByIndex)
+	firstRow := rowData
+	secondRow := rowData
+	_, _, leastCommonDigitByIndex := commonBits(flatTheArray(secondRow), false)
+	for i := 0; i < len(commonDigitByIndex); i++ {
+		for j := 0; j < len(firstRow); j++ {
+			digitInt, _ := strconv.Atoi(string(firstRow[j][i]))
+			digitCommon, _ := strconv.Atoi(commonDigitByIndex[i])
+			if digitInt != digitCommon {
+				firstRow = append(firstRow[:j], firstRow[j+1:]...)
+				_, _, commonDigitByIndex = commonBits(flatTheArray(firstRow), true)
+				i = 0
+				j = 0
+			}
+		}
+	}
+
+	fmt.Println("rowdata", firstRow)
+
+	fmt.Println("leastCommondigit", leastCommonDigitByIndex)
+	for i := 0; i < len(leastCommonDigitByIndex); i++ {
+		for j := 0; j < len(secondRow); j++ {
+			digitInt, _ := strconv.Atoi(string(secondRow[j][i]))
+			digitCommon, _ := strconv.Atoi(leastCommonDigitByIndex[i])
+			if digitInt != digitCommon {
+				secondRow = append(secondRow[:j], secondRow[j+1:]...)
+				_, _, commonDigitByIndex = commonBits(flatTheArray(secondRow), false)
+				i = 0
+				j = 0
+			}
+		}
+	}
+
+	fmt.Println("rowdata", secondRow)
+	return 0
+}
+
+func main() {
+	f, err := os.Open("input-ex.txt")
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+	bits := make(map[int]string)
+	var rowData []string
+	for scanner.Scan() {
+		currentValue := scanner.Text()
+		rowData = append(rowData, currentValue)
+		for i := 0; i < len(currentValue); i++ {
+			bits[i] += string(currentValue[i])
+
+		}
+	}
+	if err != nil {
+		fmt.Println("error", err)
+	}
+	firstPartResult, commonDigitByIndex := part1(bits)
+	fmt.Println(firstPartResult)
+	fmt.Println(part2(rowData, commonDigitByIndex))
+}

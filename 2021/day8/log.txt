@@ -1,0 +1,531 @@
+five number not found g in fabcd
+five number not found e in fabcd
+diff 1
+five number not found b in fdcge
+diff 1
+five number not found g in fecdb
+diff 0
+number map[0:agebfd 1:be 2:fabcd 3:fecdb 4:cgeb 5:fdcge 6:fgaecd 7:edb 8:cfbegad 9:cbdgef]
+proposal fdgacbe
+number fecdb fdgacbe
+number cfbegad fdgacbe
+number cgeb fdgacbe
+number edb fdgacbe
+number fabcd fdgacbe
+number fdcge fdgacbe
+number agebfd fdgacbe
+number cbdgef fdgacbe
+number fgaecd fdgacbe
+number be fdgacbe
+proposal cefdb
+number cfbegad cefdb
+number fecdb cefdb
+number agebfd cefdb
+number cbdgef cefdb
+number fgaecd cefdb
+number be cefdb
+number cgeb cefdb
+number edb cefdb
+number fabcd cefdb
+number fdcge cefdb
+proposal cefbgd
+number cgeb cefbgd
+number edb cefbgd
+number fabcd cefbgd
+number fdcge cefbgd
+number agebfd cefbgd
+number cbdgef cefbgd
+number fgaecd cefbgd
+number be cefbgd
+number fecdb cefbgd
+number cfbegad cefbgd
+proposal gcbe
+number cbdgef gcbe
+number fgaecd gcbe
+number be gcbe
+number cgeb gcbe
+number edb gcbe
+number fabcd gcbe
+number fdcge gcbe
+number agebfd gcbe
+number cfbegad gcbe
+number fecdb gcbe
+sum 0
+five number not found g in abcde
+five number not found f in abcde
+diff 1
+five number not found f in begcd
+diff 0
+five number not found c in fbgde
+diff 1
+number map[0:acbgfd 1:gc 2:abcde 3:begcd 4:gfec 5:fbgde 6:edbfga 7:cbg 8:gcadebf 9:gfcbed]
+proposal fcgedb
+number gfec fcgedb
+number abcde fcgedb
+number fbgde fcgedb
+number acbgfd fcgedb
+number gcadebf fcgedb
+number gc fcgedb
+number begcd fcgedb
+number edbfga fcgedb
+number gfcbed fcgedb
+number cbg fcgedb
+proposal cgb
+number cbg cgb
+number gc cgb
+number begcd cgb
+number edbfga cgb
+number gfcbed cgb
+number gcadebf cgb
+number gfec cgb
+number abcde cgb
+number fbgde cgb
+number acbgfd cgb
+proposal dgebacf
+number begcd dgebacf
+number edbfga dgebacf
+number gfcbed dgebacf
+number cbg dgebacf
+number gc dgebacf
+number abcde dgebacf
+number fbgde dgebacf
+number acbgfd dgebacf
+number gcadebf dgebacf
+number gfec dgebacf
+proposal gc
+number gc gc
+number begcd gc
+number edbfga gc
+number gfcbed gc
+number cbg gc
+number gfec gc
+number abcde gc
+number fbgde gc
+number acbgfd gc
+number gcadebf gc
+sum 1
+five number not found g in bdaec
+five number not found f in bdaec
+diff 1
+five number not found f in bgcad
+diff 0
+five number not found c in gdafb
+diff 1
+number map[0:gdcbef 1:cg 2:bdaec 3:bgcad 4:gfac 5:gdafb 6:fgaebd 7:gcb 8:cdgabef 9:agbcfd]
+proposal cg
+number bgcad cg
+number agbcfd cg
+number fgaebd cg
+number cg cg
+number gfac cg
+number bdaec cg
+number gdafb cg
+number gdcbef cg
+number cdgabef cg
+number gcb cg
+proposal cg
+number cg cg
+number gfac cg
+number bgcad cg
+number agbcfd cg
+number fgaebd cg
+number cdgabef cg
+number gcb cg
+number bdaec cg
+number gdafb cg
+number gdcbef cg
+proposal fdcagb
+number bdaec fdcagb
+number gdafb fdcagb
+number gdcbef fdcagb
+number cdgabef fdcagb
+number gcb fdcagb
+number bgcad fdcagb
+number agbcfd fdcagb
+number fgaebd fdcagb
+number cg fdcagb
+number gfac fdcagb
+proposal cbg
+number cg cbg
+number gfac cbg
+number bgcad cbg
+number agbcfd cbg
+number fgaebd cbg
+number cdgabef cbg
+number gcb cbg
+number bdaec cbg
+number gdafb cbg
+number gdcbef cbg
+sum 4
+five number not found b in aefdc
+diff 1
+five number not found f in dageb
+five number not found c in dageb
+diff 1
+five number not found f in ecdab
+diff 0
+number map[0:fbegcd 1:bc 2:dageb 3:ecdab 4:afcb 5:aefdc 6:fgdeca 7:cbd 8:fcdbega 9:adcefb]
+proposal efabcd
+number bc efabcd
+number aefdc efabcd
+number ecdab efabcd
+number adcefb efabcd
+number fbegcd efabcd
+number fgdeca efabcd
+number afcb efabcd
+number cbd efabcd
+number fcdbega efabcd
+number dageb efabcd
+proposal cedba
+number dageb cedba
+number afcb cedba
+number cbd cedba
+number fcdbega cedba
+number adcefb cedba
+number fbegcd cedba
+number fgdeca cedba
+number bc cedba
+number aefdc cedba
+number ecdab cedba
+proposal gadfec
+number bc gadfec
+number aefdc gadfec
+number ecdab gadfec
+number adcefb gadfec
+number fbegcd gadfec
+number fgdeca gadfec
+number afcb gadfec
+number cbd gadfec
+number fcdbega gadfec
+number dageb gadfec
+proposal cb
+number cbd cb
+number fcdbega cb
+number dageb cb
+number afcb cb
+number aefdc cb
+number ecdab cb
+number adcefb cb
+number fbegcd cb
+number fgdeca cb
+number bc cb
+sum 0
+five number not found c in bafeg
+diff 0
+five number not found c in dbefa
+five number not found g in dbefa
+diff 1
+five number not found f in gcbea
+diff 1
+number map[0:fcbdga 1:gf 2:dbefa 3:bafeg 4:fcge 5:gcbea 6:dgceab 7:fbg 8:aecbfdg 9:fcaegb]
+proposal gecf
+number fcaegb gecf
+number fbg gecf
+number gf gecf
+number gcbea gecf
+number dbefa gecf
+number dgceab gecf
+number fcbdga gecf
+number aecbfdg gecf
+number fcge gecf
+number bafeg gecf
+proposal egdcabf
+number aecbfdg egdcabf
+number fcge egdcabf
+number bafeg egdcabf
+number dbefa egdcabf
+number dgceab egdcabf
+number fcbdga egdcabf
+number fbg egdcabf
+number gf egdcabf
+number gcbea egdcabf
+number fcaegb egdcabf
+proposal bgf
+number bafeg bgf
+number dbefa bgf
+number dgceab bgf
+number fcbdga bgf
+number aecbfdg bgf
+number fcge bgf
+number gcbea bgf
+number fcaegb bgf
+number fbg bgf
+number gf bgf
+proposal bfgea
+number fbg bfgea
+number gf bfgea
+number gcbea bfgea
+number fcaegb bfgea
+number aecbfdg bfgea
+number fcge bfgea
+number bafeg bfgea
+number dbefa bfgea
+number dgceab bfgea
+number fcbdga bfgea
+sum 0
+five number not found e in bafgc
+diff 0
+five number not found c in fgeab
+diff 1
+five number not found a in gcfdb
+five number not found e in gcfdb
+diff 1
+number map[0:cfaedg 1:ca 2:gcfdb 3:bafgc 4:baec 5:fgeab 6:bfadeg 7:acf 8:bdacfeg 9:afcebg]
+proposal gebdcfa
+number afcebg gebdcfa
+number bfadeg gebdcfa
+number acf gebdcfa
+number bdacfeg gebdcfa
+number ca gebdcfa
+number gcfdb gebdcfa
+number baec gebdcfa
+number bafgc gebdcfa
+number fgeab gebdcfa
+number cfaedg gebdcfa
+proposal ecba
+number ca ecba
+number gcfdb ecba
+number afcebg ecba
+number bfadeg ecba
+number acf ecba
+number bdacfeg ecba
+number fgeab ecba
+number cfaedg ecba
+number baec ecba
+number bafgc ecba
+proposal ca
+number gcfdb ca
+number afcebg ca
+number bfadeg ca
+number acf ca
+number bdacfeg ca
+number ca ca
+number cfaedg ca
+number baec ca
+number bafgc ca
+number fgeab ca
+proposal fadegcb
+number cfaedg fadegcb
+number baec fadegcb
+number bafgc fadegcb
+number fgeab fadegcb
+number gcfdb fadegcb
+number afcebg fadegcb
+number bfadeg fadegcb
+number acf fadegcb
+number bdacfeg fadegcb
+number ca fadegcb
+sum 5
+five number not found f in dacgb
+five number not found e in dacgb
+diff 1
+five number not found e in dbcfg
+diff 0
+five number not found g in fbedc
+diff 1
+number map[0:aegbdf 1:gf 2:dacgb 3:dbcfg 4:fgec 5:fbedc 6:ecdfab 7:fgd 8:bdegcaf 9:gdcebf]
+proposal cefg
+number bdegcaf cefg
+number fgd cefg
+number fbedc cefg
+number aegbdf cefg
+number gdcebf cefg
+number fgec cefg
+number gf cefg
+number dacgb cefg
+number dbcfg cefg
+number ecdfab cefg
+proposal dcbef
+number fgec dcbef
+number gf dcbef
+number dacgb dcbef
+number dbcfg dcbef
+number ecdfab dcbef
+number bdegcaf dcbef
+number fgd dcbef
+number fbedc dcbef
+number aegbdf dcbef
+number gdcebf dcbef
+proposal fcge
+number ecdfab fcge
+number fgec fcge
+number gf fcge
+number dacgb fcge
+number dbcfg fcge
+number gdcebf fcge
+number bdegcaf fcge
+number fgd fcge
+number fbedc fcge
+number aegbdf fcge
+proposal gbcadfe
+number gdcebf gbcadfe
+number bdegcaf gbcadfe
+number fgd gbcadfe
+number fbedc gbcadfe
+number aegbdf gbcadfe
+number ecdfab gbcadfe
+number fgec gbcadfe
+number gf gbcadfe
+number dacgb gbcadfe
+number dbcfg gbcadfe
+sum 0
+five number not found e in bdacg
+five number not found f in bdacg
+diff 1
+five number not found f in gebcd
+diff 0
+five number not found d in gecbf
+diff 1
+number map[0:dfcage 1:ed 2:bdacg 3:gebcd 4:bedf 5:gecbf 6:cbegaf 7:ced 8:adcbefg 9:bdfegc]
+proposal ed
+number cbegaf ed
+number adcbefg ed
+number ced ed
+number ed ed
+number bdacg ed
+number gebcd ed
+number gecbf ed
+number bdfegc ed
+number bedf ed
+number dfcage ed
+proposal bcgafe
+number adcbefg bcgafe
+number ced bcgafe
+number ed bcgafe
+number bdacg bcgafe
+number gebcd bcgafe
+number gecbf bcgafe
+number bdfegc bcgafe
+number cbegaf bcgafe
+number bedf bcgafe
+number dfcage bcgafe
+proposal cdgba
+number bedf cdgba
+number dfcage cdgba
+number bdacg cdgba
+number gebcd cdgba
+number gecbf cdgba
+number bdfegc cdgba
+number cbegaf cdgba
+number adcbefg cdgba
+number ced cdgba
+number ed cdgba
+proposal cbgef
+number bdfegc cbgef
+number cbegaf cbgef
+number adcbefg cbgef
+number ced cbgef
+number ed cbgef
+number bdacg cbgef
+number gebcd cbgef
+number gecbf cbgef
+number bedf cbgef
+number dfcage cbgef
+sum 7
+five number not found d in bfceg
+diff 0
+five number not found c in egfdb
+diff 1
+five number not found g in fecab
+five number not found d in fecab
+diff 1
+number map[0:fgcdab 1:cg 2:fecab 3:bfceg 4:cegd 5:egfdb 6:egadfb 7:cgb 8:gbdefca 9:cdbfeg]
+proposal gbdfcae
+number cg gbdfcae
+number gbdefca gbdfcae
+number bfceg gbdfcae
+number egfdb gbdfcae
+number fecab gbdfcae
+number egadfb gbdfcae
+number cegd gbdfcae
+number cgb gbdfcae
+number cdbfeg gbdfcae
+number fgcdab gbdfcae
+proposal bgc
+number cdbfeg bgc
+number fgcdab bgc
+number cegd bgc
+number cgb bgc
+number bfceg bgc
+number egfdb bgc
+number fecab bgc
+number egadfb bgc
+number cg bgc
+number gbdefca bgc
+proposal cg
+number fgcdab cg
+number cegd cg
+number cgb cg
+number cdbfeg cg
+number egfdb cg
+number fecab cg
+number egadfb cg
+number cg cg
+number gbdefca cg
+number bfceg cg
+proposal cgb
+number cg cgb
+number gbdefca cgb
+number bfceg cgb
+number egfdb cgb
+number fecab cgb
+number egadfb cgb
+number cegd cgb
+number cgb cgb
+number cdbfeg cgb
+number fgcdab cgb
+sum 16
+five number not found f in ecagb
+diff 1
+five number not found g in fdbac
+five number not found e in fdbac
+diff 1
+five number not found e in gcafb
+diff 0
+number map[0:fegbdc 1:gf 2:fdbac 3:gcafb 4:gaef 5:ecagb 6:abcdeg 7:gcf 8:dcaebfg 9:cafbge]
+proposal fgae
+number fdbac fgae
+number abcdeg fgae
+number fegbdc fgae
+number dcaebfg fgae
+number gaef fgae
+number gcf fgae
+number gf fgae
+number ecagb fgae
+number gcafb fgae
+number cafbge fgae
+proposal cfgab
+number fdbac cfgab
+number abcdeg cfgab
+number fegbdc cfgab
+number gcafb cfgab
+number cafbge cfgab
+number dcaebfg cfgab
+number gaef cfgab
+number gcf cfgab
+number gf cfgab
+number ecagb cfgab
+proposal fg
+number fdbac fg
+number abcdeg fg
+number fegbdc fg
+number ecagb fg
+number gcafb fg
+number cafbge fg
+number dcaebfg fg
+number gaef fg
+number gcf fg
+number gf fg
+proposal bagce
+number fdbac bagce
+number abcdeg bagce
+number fegbdc bagce
+number dcaebfg bagce
+number gaef bagce
+number gcf bagce
+number gf bagce
+number ecagb bagce
+number gcafb bagce
+number cafbge bagce
+sum 0
+max 33
